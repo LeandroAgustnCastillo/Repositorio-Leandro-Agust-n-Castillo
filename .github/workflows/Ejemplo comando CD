@@ -1,2 +1,1 @@
-cp texto.txt /home/usuario/carpeta_de_destino
 cd [opciones] [{ruta relativa}{ruta absoluta}{Directorios especiales}]
