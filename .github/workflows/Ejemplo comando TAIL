@@ -1,0 +1,1 @@
+[code] tail [{ -c | –bytes = } num ] [ -f ] [ –follow [ = { nombre | descriptor }]] [/code]
