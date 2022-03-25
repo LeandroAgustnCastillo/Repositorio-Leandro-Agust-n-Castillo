@@ -28,3 +28,52 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
+
+#EJEMPLOS COMANDOS
+
+#COMANDOS LS
+
+#ls-a
+#ls–color
+#ls-d
+#ls-F
+#ls-i
+#ls-l
+#ls-la
+#ls-lh
+#ls-ls
+#ls-r
+#ls-R
+#ls-s
+#ls-S
+#ls-t
+#ls-X
+#ls–file-type
+#ls–format
+#ls–full-time
+#ls-g
+#ls–group-directories-first
+
+#COMANDO TAIL
+
+#[code] tail [{ -c | –bytes = } num ] [ -f ] [ –follow [ = { nombre | descriptor }]] [/code]
+
+#COMANDO MV
+
+#[code] mv [ opciones ] [ -T ] origen destino [/code]
+
+#COMANDO CP
+
+#cp texto.txt /home/usuario/carpeta_de_destino
+
+#COMANDO CD
+
+#cd [opciones] [{ruta relativa}{ruta absoluta}{Directorios especiales}]
+
+#COMANDO CAT
+
+#cat [OPTION] [FILE]
+
+#COMANDO PWD
+
+#pwd [OPCION]
