@@ -14,3 +14,13 @@ file = open("/ruta/filename.txt", "w")
 file.write("Primera línea" + os.linesep)
 file.write("Segunda línea")
 file.close()
+
+//Header
+
+>>> import requests
+
+>>> r = requests.get('http://www.google.com/')
+>>> r.headers
+{'Expires': '-1', 'Cache-Control': 'private, max-age=0', ...}
+
+
