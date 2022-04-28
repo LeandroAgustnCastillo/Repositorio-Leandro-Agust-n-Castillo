@@ -1,26 +1,22 @@
 import requests
 
 resp = requests.get('https://openlibrary.org/works/OL45883W.json')
-
-
-import os
-
-
-//Código para verificarr:
   
 import os
 
-file = open("/ruta/filename.txt", "w")
+file = open("archive.txt", "w")
 file.write("Primera línea" + os.linesep)
 file.write("Segunda línea")
 file.close()
 
 //Header
 
->>> import requests
+import requests
 
->>> r = requests.get('http://www.google.com/')
->>> r.headers
-{'Expires': '-1', 'Cache-Control': 'private, max-age=0', ...}
+URL ='https://openlibrary.org/works/OL45883W.json'
+data = request.get (URL)
+data = data.txt
 
+with open ('archive.txt', "w") as f
+f.write(data)
 
