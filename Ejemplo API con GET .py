@@ -1,25 +1,15 @@
-import requests
-
-url = 'https://openlibrary.org/works/OL45883W.json'
+import requests 
   
-import os
+response = requests.get(''http://www.boredapi.com/api/activity?type=recreational&#39;') 
+  
+body = response.json()
+print(body) 
+print(response.headers) 
 
-r = requests.get(url)
-data = r.text
-print(data)
+cuerpo = open("cuerpo.txt", "w")
+cuerpo.write(str(body))
+cuerpo.close()
 
-//Header
-
-import os
-
-URL ='https://openlibrary.org/works/OL45883W.json'
-data = request.get (URL)
-data = data.txt
-
-with open ('archive.txt', "w") as f
-f.write(data)
-
-file = open("archive.txt", "w")
-file.write("Primera línea" + os.linesep)
-file.write("Segunda línea")
-file.close()
+encabezado = open("encabezado.txt", "w")
+encabezado.write(str(response.headers))
+encabezado.close()
