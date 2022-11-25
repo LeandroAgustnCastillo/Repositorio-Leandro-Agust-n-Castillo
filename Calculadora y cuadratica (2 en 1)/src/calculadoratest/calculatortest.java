@@ -87,6 +87,19 @@ public class calculatortest {
         assertThrows(
                 ArithmeticException.class,
                 () -> calculator.raiz(5, 0, 3)
+            
+    @Test        
+    public void TestNombre(String Leandro, String Pepe) {
+        if (Leandro) {
+            return Leandro;
+        } else if (Pepe) {
+            return Pepe;
+        } 
+    }
+    
+}
+            
+    
         );
     }
 
