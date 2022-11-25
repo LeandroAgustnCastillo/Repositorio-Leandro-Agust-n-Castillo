@@ -32,7 +32,12 @@ public class calculator {
     }
 
     private static String doSomething() {
-        return "Leandro";
+        return "Leandro"; //ejemplo uno
+        
+    public String DevolverNombre (String Leandro) {
+        If (nombre == "Leandro"){ //ejemplo 2
+            return Leandro;
+            }
     }
 }
     }
