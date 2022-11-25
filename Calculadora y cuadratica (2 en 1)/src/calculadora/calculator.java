@@ -24,5 +24,16 @@ public class calculator {
         double num2 = (-b - Math.sqrt( (b*b) - (4 * a * c))) / (2 * a);
         double[] resultados = {num1, num2};
         return resultados;
+        
+        public class Main {
+    public static void main(String[] args) {
+        String s = doSomething();
+        System.out.println("Imprimir el valor de la función" + s);
+    }
+
+    private static String doSomething() {
+        return "Leandro";
+    }
+}
     }
 }
