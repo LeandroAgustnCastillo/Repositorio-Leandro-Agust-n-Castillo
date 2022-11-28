@@ -93,6 +93,13 @@ public class calculatortest {
         assertEquals("pepe", calculator.miNombre);
 
         }
+            
+            
+            @Test 
+    public void nombreTest() {
+        assertNotEquals("leandro", calculator.miNombre);
+
+        }
      
     }
     
