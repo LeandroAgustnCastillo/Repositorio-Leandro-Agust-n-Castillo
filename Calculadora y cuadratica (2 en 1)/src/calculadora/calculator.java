@@ -31,13 +31,11 @@ public class calculator {
         System.out.println("Imprimir el valor de la función" + s);
     }
 
-    private static String doSomething() {
-        return "Leandro"; //ejemplo uno
-        
-    public String DevolverNombre (String Leandro) {
-        If (nombre == "Leandro"){ //ejemplo 2
-            return Leandro;
-            }
+   Getmapping("Leandro")
+       public string obtenerNombre(@RequestParam(value = "Leandro")String name){
+            return name;
+   }
+            
     }
 }
     }
