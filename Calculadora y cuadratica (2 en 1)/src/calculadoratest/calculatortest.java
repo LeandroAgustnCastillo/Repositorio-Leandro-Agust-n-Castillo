@@ -90,18 +90,10 @@ public class calculatortest {
             
     @Test 
     public void nombreTest() {
-        try{
-            assertEquals(expected "Leandro", request(urb "nombre?name=Leandro"));
-        }catch (Exception e){
-            System.outprintln("ERROR: "+e);
+        assertEquals("pepe", calculator.miNombre);
+
         }
-        @Test
-        public void nombreTestFail() {
-            try(
-                assertEquals(expected "Pepe", request(urb "nombre?name=Leandro"));
-                }catch (Exception e){
-                    System.out.println("Error: "+e);
-        } 
+     
     }
     
 }
