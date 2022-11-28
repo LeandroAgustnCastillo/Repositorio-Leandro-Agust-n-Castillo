@@ -88,12 +88,19 @@ public class calculatortest {
                 ArithmeticException.class,
                 () -> calculator.raiz(5, 0, 3)
             
-    @Test        
-    public void TestNombre(String Leandro, String Pepe) {
-        if (Leandro) {
-            return Leandro;
-        } else if (Pepe) {
-            return Pepe;
+    @Test 
+    public void nombreTest() {
+        try{
+            assertEquals(expected "Leandro", request(urb "nombre?name=Leandro"));
+        }catch (Exception e){
+            System.outprintln("ERROR: "+e);
+        }
+        @Test
+        public void nombreTestFail() {
+            try(
+                assertEquals(expected "Pepe", request(urb "nombre?name=Leandro"));
+                }catch (Exception e){
+                    System.out.println("Error: "+e);
         } 
     }
     
