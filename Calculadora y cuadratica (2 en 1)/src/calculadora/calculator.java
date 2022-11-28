@@ -18,6 +18,10 @@ public class calculator {
     public int division(int num1, int num2) {
         return num1 / num2;
     }
+    
+      public String miNombre() {
+        return "pepe";
+    }
 
     public double[] raiz (double a, double b, double c){
         double num1 = (-b + Math.sqrt( (b*b) - (4 * a * c ))) / (2 * a);
@@ -25,18 +29,7 @@ public class calculator {
         double[] resultados = {num1, num2};
         return resultados;
         
-        public class Main {
-    public static void main(String[] args) {
-        String s = doSomething();
-        System.out.println("Imprimir el valor de la función" + s);
-    }
-
-   Getmapping("Leandro")
-       public string obtenerNombre(@RequestParam(value = "Leandro")String name){
-            return name;
-   }
-            
-    }
+    
 }
     }
 }
